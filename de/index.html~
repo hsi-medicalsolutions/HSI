@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--========START HTML========-->	
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+	<!--========START HEAD========-->		
+	<head>
+		
+		<!--========START META========-->	
+		<meta name="keyword" content = "human system interaction, 3d printing prosthetics, neuromarketing, biomedical engineering, brain machine interface, emg prosthetics, eeg prosthetics, medical devices mexico">
+		<meta name = "description" content="">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<!--========START TITLE========-->		
+		<title>
+			HSI, Inc.  | Human-System Interaction Solutions
+		</title>
+
+		<!--========START STYLE========-->	
+		<style type="text/css">
+			/********GENERAL RULES********/
+			/* rules for all index*/
+			*{
+				margin:0px auto;
+				padding: 0px;
+				font-family: Helvetica, arial, sans-serif;
+			}
+			/* rules for body*/
+			body{
+				text-align:center;
+			}
+			/* rules for header 1*/
+			h1{
+				text-align:center;
+				border-bottom: 2px solid #00A8CB;
+				margin-bottom: 50px;
+			}
+			/********RULES FOR TABLES WITH CONTENT********/
+			/* rules for table with menu*/
+			#tabmenu{
+				text-align:center;
+				border-bottom: 2px solid #00A8CB;
+				margin-bottom: 30px;
+	
+			}
+			/* rules for table with section display*/
+			#tabsection{
+				text-align:center;
+				background: #000;	
+				color: #00A8CB;/*(00,169,203) o 002F64 -(00,47,10)*/
+				font-size: 60px;
+			}			
+			/********RULES FOR LOGO********/
+			/* rules for logo*/
+			.logo {
+				text-align: center;
+				font-family: Helvetica, arial, sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+			}
+			/* rules for logo ANCHOR*/
+			.logo a{
+				color: #000000;
+				font-weight: bold;
+				text-decoration: none;
+			}
+			/********RULES FOR NAVIGATION MENU********/
+			/* rules for all UNORDERED lists*/
+			ul#navmenu, ul.sub1{
+				list-style-type:none;
+				text-align:center;
+				font-family: Helvetica, arial, sans-serif;
+				font-size: 15px;
+				/*outline: 1px solid red;*/
+			}
+			/* rules for MAIN LIST item*/
+			ul#navmenu li{
+				/*border: 1px solid red;*/
+				width: 170px;
+				text-align: center;
+				position: relative; /*very important step*/
+				float: left;
+				margin-right: 4px;
+			}
+			/* rules for MAIN ANCHOR element*/
+			ul#navmenu a{
+				font-weight: bold;
+				text-decoration: none;
+				display: block;
+				width: 125px;
+				height: 25px;
+				line-height: 25px;
+				color: #002F64;	
+				text-align: center;
+			}
+			/* rules for ALL ANCHOR element -> MAIN LI hover*/
+			ul#navmenu li:hover >a{
+				color: #00A8CB;
+			}
+			/* rules for SUB unordered lists*/
+			ul#navmenu ul.sub1{
+				display: none;
+				position: absolute;
+				top: 25px;
+				left: auto;
+				right: auto;
+				background-color: rgba(00,10,47,0.9);
+				-webkit-border-radius: 0px 15px 0px 15px;
+				-moz-border-radius: 0px 15px 0px 15px;
+				border-radius: 0px 15px 0px 15px;
+			}
+			/* rules for SUB LIST item*/
+			ul#navmenu .sub1 li{
+				color: #FFF;
+				width: 200px;
+				/**border: 1px solid green;*/
+			}
+			/* rules for SUB ANCHOR element*/
+			ul#navmenu .sub1 a{
+				color: #FFF;
+				width: 200px;
+				margin-top: 0px;
+				-webkit-border-radius: 0px 15px 0px 15px;
+				-moz-border-radius: 0px 15px 0px 15px;
+				border-radius: 0px 15px 0px 15px;
+			}
+			/* rules for SUB ANCHOR element -> SUB A and LI hover*/
+			ul#navmenu .sub1 li:hover a:hover{
+				background-color: #FFF;
+				width: 201px;
+				border: 1px solid rgba(150,150,150,0.9);
+				font-size: 15px;
+			}
+			/* rules for ALL SUB elements -> MAIN LI hover*/
+			ul#navmenu li:hover .sub1{
+				display: block;
+			}
+			/********RULES FOR IMAGE IN SECTION DISPLAY********/
+			div.img
+			{
+				margin:0px;
+				padding: 0px;
+				float:left;
+				text-align:left;
+				background: #000;
+			}
+			/********RULES FOR TEXT********/
+			/* rules for header*/
+			.header {
+				padding: 0px;
+			}
+			/* rules for content in header*/
+			.contentheader {
+				text-align: left;
+				font-family: Helvetica, arial, sans-serif;
+				font-size: 20px;
+				font-weight: bold;
+				color: #00A8CB;
+			}
+			/* rules for content in text*/
+			.contenttext {
+				text-align: justify;
+				font-family: Helvetica, arial, sans-serif;
+				font-size: 14px;
+			}
+			#flags{
+				margin:0 auto;	
+				background-repeat:no-repeat;
+				position:absolute;
+				top: 0;
+				background-position:0 top;
+			}
+
+			#flags a span{
+				display:none;
+			} 
+		</style><!--END STYLE-->
+	</head><!--END HEAD-->
+
+	<!--========START BODY========-->
+	<body>
+		<!--========LOGO AND TOP MENU========-->
+		<table id = "tabmenu" align="center"><tr>
+			<!--========LOGO========-->
+			<td width="200"><div class="logo"><a href="index.html" alt="Home" title="Home">
+				<img src="images/logo.png" alt="menu" width="200" height="90">
+			</a></div></td><!--END LOGO-->
+			<!--========TOP MENU========-->
+			<td height="29" width ="900" valign="center"><ul id ="navmenu">
+				<li><a href="#">Brain Interfaces</a>
+					<ul class="sub1">
+						<li><a href="#">Description</a></li>
+						<li><a href="#">Products</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Muscle Interfaces</a>
+					<ul class="sub1">
+						<li><a href="#">Description</a></li>
+						<li><a href="#">Products</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Neuromarketing</a>
+					<ul class="sub1">
+						<li><a href="#">Description</a></li>
+						<li><a href="#">Services</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Medical Devices</a>
+					<ul class="sub1">
+						<li><a href="#">Description</a></li>
+						<li><a href="#">Products</a></li>
+					</ul>
+				</li>
+				<li><a href="#">About</a>
+					<ul class="sub1">
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Leadership</a></li>
+						<li><a href="#">Awards and Recognitions</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+				</li>
+			</ul></td><!--END TOP MENU-->
+			
+			<td height="29" width ="75" valign="center"><div id ="flags" align="right" style="height: 30px;">
+					<a href="../index.html"><img src="images/en.gif" title="English" alt="English" /></a>
+					<a href="../es/index.html"><img src="images/es.gif" title="Español" alt="Español"/></a>
+					<a href="index.html"><img src="images/de.gif" title="Deutsch" alt="Deutsch" /></a>
+				</div></td>
+
+
+		</tr></table><!--END LOGO AND TOP MENU-->
+
+		<!--========IMAGE AND SECTION========-->
+		<table id = tabsection><tr>
+			<!--========IMAGE========-->
+			<td><div class="img">
+			  <img src="images/menu.jpg" alt="menu" width="500" height="150">
+			</div></td><!--END IMAGE-->
+			<!--========SECTION========-->
+			<td width = "1180">
+				Human System Interaction
+			</td><!--END SECTION-->
+		</tr></table><!--END IMAGE AND SECTION-->
+
+		<!--========FOOTER========-->
+		<table align="center" width="1000" border="0" cellpadding="0" cellspacing="0" class="header">
+			<tr>
+				<td><table style="padding: 10px;" width="1000" border="0">
+					<tr>
+						<td width="600" valign="top"><div class="contentheader">WELCOME...</div>
+							<div class="contenttext">
+							<div align="justify">Welcome to my website...</div></div>
+						
+							<div class="contentheader">More Content...</div>
+							<div class="contenttext">
+							<div align="justify">Add more content...<br /><br />...and on!</div></div>
+						</td>
+						<td width="9"></td>
+						<td width="2" valign="top" style="border-right: 2px solid #999999;"></td>
+						<td width="7"></td>
+						<td width="350" valign="top"><div class="contentheader">PHOTOS...</div>
+							<div class="contentheader">Description</div>
+							<span class="contenttext">content...</span>
+						</td>
+					</tr>
+				</table></td>
+			</tr>
+			<tr>
+				<td wdth = "1000"><img src="images/Footer.png" /></td>
+			</tr>
+		</table>
+	</body>
+</html>

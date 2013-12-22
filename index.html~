@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--========START HTML========-->	
+<html xmlns="http://www.w3.org/1999/xhtml">	
+	<!--========START HEAD========-->		
+	<head>
+		<!--========START META========-->	
+		<meta name="keyword" content = "human system interaction, 3d printing prosthetics, neuromarketing, biomedical engineering, brain machine interface, emg prosthetics, eeg prosthetics, medical devices mexico">
+		<meta name = "description" content="">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />		
+		<!--========START TITLE========-->		
+		<title>
+			HSI, Inc.  | Human-System Interaction Solutions
+		</title>
+		<!--========LINK TO CSS STYLESHEET========-->	
+		<link rel="stylesheet" href="css/style.css">
+		<!--========CALL JQUERY, JQUERY UI AND JQUERY FILES========-->	
+		<script type ="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+		<script src="jquery/jslider.js"></script>
+	</head>
+	<!--========START BODY========-->
+	<body>
+		<!--========LOGO, TOP MENU AND FLAGS========-->
+		<table id = "tabmenu" align="center"><tr>
+			<!--========LOGO========-->
+			<td width="200"><div class="logo"><a href="index.html">
+				<img src="images/logo.png" alt="Home" title="Home" width="200" height="90">
+			</a></div></td><!--END LOGO-->
+			<!--========TOP MENU========-->
+			<td height="29" width ="900" valign="center"><ul id ="navmenu">
+				<li><a href="#">Prosthetic Interfaces</a>
+					<ul class="sub1">
+						<li><a href="#">Description</a></li>
+						<li><a href="#">Muscle Interfaces</a></li>
+						<li><a href="#">Brain Interfaces</a></li>
+						<li><a href="#">Products</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Muscle Interfaces</a>
+					<ul class="sub1">
+						<li><a href="#">Description</a></li>
+						<li><a href="#">Products</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Neuromarketing</a>
+					<ul class="sub1">
+						<li><a href="#">Description</a></li>
+						<li><a href="#">Services</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Software & Web</a>
+					<ul class="sub1">
+						<li><a href="#">Software Development</a></li>
+						<li><a href="#">Web Development</a></li>
+						<li><a href="#">Databases</a></li>
+						<li><a href="#">Services</a></li>
+					</ul>
+				</li>
+				<li><a href="#">About</a>
+					<ul class="sub1">
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Leadership</a></li>
+						<li><a href="#">Awards and Publications</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+				</li>
+			</ul></td><!--END TOP MENU-->
+			<!--========FLAGS========-->
+			<td height="29" width ="75" valign="center"><div id ="flags" align="right" style="height: 30px;">
+					<a href="index.html"><img src="images/en.gif" title="English" alt="English" /></a>
+					<a href="es/index.html"><img src="images/es.gif" title="Español" alt="Español"/></a>
+					<a href="de/index.html"><img src="images/de.gif" title="Deutsch" alt="Deutsch" /></a>
+			</div></td><!--END FLAGS-->
+		</tr></table><!--END LOGO AND TOP MENU-->
+
+		<!--========IMAGE AND SECTION========--
+		<table id = tabsection><tr>
+			<!--========IMAGE========--
+			<td><div class="img">
+			  <img src="images/menu.jpg" alt="menu" width="500" height="150">
+			</div></td><!--END IMAGE--
+			<!--========SECTION========--
+			<td width = "1180">
+				Human System Interaction
+			</td><!--END SECTION--
+		</tr></table><!--END IMAGE AND SECTION-->
+
+		<!--========IMAGE AND TEXT SLIDER========-->
+		<table class="wrapper"><tr>
+			<!--========PREVIOUS BUTTON========-->
+			<td>
+				<div class="left" ><a href="#" onclick = "prev(); return false;"><</a></div>
+			</td><!--END PREVIOUS BUTTON-->
+			<!--========IMAGE SLIDER========-->
+			<td>
+				<div id="slider">
+					<img id = "1" src="images/image1.png">
+					<img id = "2" src="images/image2.png">
+					<img id = "3" src="images/image3.png">
+					<img id = "4" src="images/image4.png">
+				</div>
+			</td><!--END IMAGE SLIDER-->
+			<!--========TEXT SLIDER========-->
+			<td>
+				<div class="main-content">
+					<div class="content-switcher" id="Content11">
+						<div class = "head">Brain-Prosthetic Interfaces</div>
+						<p>
+							Text in here 1
+						</p>
+					</div>
+					<div class="content-switcher-read" id="Content12">
+						<a href="#">&nbsp;&nbsp;READ MORE &nbsp;>&nbsp;&nbsp;</a>
+					</div>
+					<div class="content-switcher" id="Content21">
+						<div class="head">Neuromarketing</div>
+						<p>
+							Text in here 2
+						</p>
+					</div>
+					<div class="content-switcher-read" id="Content22">
+						<a href="#">&nbsp;&nbsp;READ MORE &nbsp;>&nbsp;&nbsp;</a>
+					</div>
+					<div class="content-switcher" id="Content31">
+						<div class="head">Muscle-Prosthetic Interfaces</div>
+						<p>
+							Text in here 3
+						</p>
+					</div>
+					<div class="content-switcher-read" id="Content32">
+						<a href="#">&nbsp;&nbsp;READ MORE &nbsp;>&nbsp;&nbsp;</a>
+					</div>
+					<div class="content-switcher" id="Content41">
+						<div class="head">Awards and Publications</div>
+						<p>
+							Text in here 4
+						</p>
+					</div>
+					<div class="content-switcher-read" id="Content42">
+						<a href="#">&nbsp;&nbsp;READ MORE &nbsp;>&nbsp;&nbsp;</a>
+					</div>
+				</div>
+			</td><!--END TEXT SLIDER-->
+			<!--========NEXT BUTTON========-->
+			<td>
+				<div class="right" ><a href="#" onclick = "next(); return false;">></a></div>
+			</td><!--END NEXT BUTTON-->
+		</tr></table><!--END SLIDER-->
+	
+
+
+		<table id = "footer">
+			<tr>
+				<td>
+					FOOTER
+				</td>
+			</tr>
+		<table>
+
+	</body>
+</html>

@@ -11,8 +11,10 @@
 		<title>
 			HSI Medical Solutions  | Human-System Interaction
 		</title>
-		<!--========LINK TO CSS STYLESHEET========-->	
-		<link rel="stylesheet" href="css/style.css">
+		<!--========LINK TO CSS STYLESHEET========-->
+		<link rel="stylesheet" media="screen and (min-width: 0px) and (max-width: 880px)" href="css/styleSmall.css">
+		<link rel="stylesheet" media="screen and (min-width: 880px) and (max-width: 1050px)" href="css/styleMedium.css">
+		<link rel="stylesheet" media="screen and (min-width:1050px)" href="css/styleLarge.css">
 		<!--========CALL JQUERY, JQUERY UI AND JQUERY FILES========-->	
 		<script type ="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
@@ -21,13 +23,13 @@
 	<!--========START BODY========-->
 	<body>
 		<!--========LOGO, TOP MENU AND FLAGS========-->
-		<table id = "tabmenu" align="center"><tr>
+		<table id = "tabmenu" width="100%" align="center"><tr>
 			<!--========LOGO========-->
-			<td width="200"><div class="logo"><a href="index.html">
-				<img src="images/logo.png" alt="Home" title="Home" width="200" height="90">
+			<td width="15%"><div class="logo"><a href="index.html">
+				<img src="images/logo.png" alt="Home" title="Home">
 			</a></div></td><!--END LOGO-->
 			<!--========TOP MENU========-->
-			<td height="29" width ="900" valign="center"><ul id ="navmenu">
+			<td height="90px" width ="72%" valign="center"><ul id ="navmenu">
 				<li><a href="#">Prosthetic Interfaces</a>
 					<ul class="sub1">
 						<li><a href="#">Description</a></li>
@@ -52,15 +54,16 @@
 				</li>
 				<li><a href="#">About</a>
 					<ul class="sub1">
+						<li><a href="#">Motivation</a></li>
 						<li><a href="#">Contact Us</a></li>
 						<li><a href="#">Leadership</a></li>
-						<li><a href="#">Awards and Publications</a></li>
+						<li><a href="#">Awards & Publications</a></li>
 						<li><a href="#">Careers</a></li>
 					</ul>
 				</li>
 			</ul></td><!--END TOP MENU-->
 			<!--========FLAGS========-->
-			<td height="29" width ="75" valign="center"><div id ="flags" align="right" style="height: 30px;">
+			<td height="90px" width ="12%" valign="center"><div id ="flags" align="right" style="height: 30px;">
 					<a href="index.html"><img src="images/en.gif" title="English" alt="English" /></a>
 					<a href="es/index.html"><img src="images/es.gif" title="Español" alt="Español"/></a>
 					<a href="de/index.html"><img src="images/de.gif" title="Deutsch" alt="Deutsch" /></a>
@@ -80,13 +83,13 @@
 		</tr></table><!--END IMAGE AND SECTION-->
 
 		<!--========IMAGE AND TEXT SLIDER========-->
-		<table class="wrapper"><tr>
+		<table class="wrapper" width="100%" float= "center"><tr>
 			<!--========PREVIOUS BUTTON========-->
-			<td>
+			<td height ="340px" width="5%">
 				<div class="left" ><a href="#" onclick = "prev(); return false;"><</a></div>
 			</td><!--END PREVIOUS BUTTON-->
 			<!--========IMAGE SLIDER========-->
-			<td>
+			<td height ="340px" width= "50%">
 				<div id="slider">
 					<img id = "1" src="images/image1.png">
 					<img id = "2" src="images/image2.png">
@@ -95,7 +98,7 @@
 				</div>
 			</td><!--END IMAGE SLIDER-->
 			<!--========TEXT SLIDER========-->
-			<td>
+			<td height ="340px" width="40%">
 				<div class="main-content">
 					<div class="content-switcher" id="Content11">
 						<div class = "head">Brain-Prosthetic Interfaces</div>
@@ -136,20 +139,51 @@
 				</div>
 			</td><!--END TEXT SLIDER-->
 			<!--========NEXT BUTTON========-->
-			<td>
+			<td height ="340px" width="5%">
 				<div class="right" ><a href="#" onclick = "next(); return false;">></a></div>
 			</td><!--END NEXT BUTTON-->
 		</tr></table><!--END SLIDER-->
 	
+<!--Be part of our fast-growing team developing groundbreaking new products!
 
+Emotiv is a growing neuro-engineering company developing state-of-the-art, advanced neuro-technologies for the next generation of human-computer interaction.
 
-		<table id = "footer">
+We do not have any openings available at the moment.  However, we are always excited and open to hear from talented individuals who may wish to join our dynamic brain research lab or product development teams.
+
+Please send your CV to careers@emotiv.com. -->
+		<!--=========FOOTER==========-->
+		<table class = "footer" width ="100%">
 			<tr>
+				<!--=======ABOUT THE COMPANY=====-->
 				<td>
-					FOOTER
-				</td>
+					<div class = "title">ABOUT HSI</div>
+						<p><a href="#">Motivation</a></p>
+						<p><a href="#">Contact Us</a></p>
+						<p><a href="#">Leadership</a></p>
+						<p><a href="#">Awards & Publications</a></p>
+						<p><a href="#">Careers</a></p>
+				</td><!--END ABOUT THE COMPANY-->
+				<!--=======SOLUTIONS=====-->
+				<td>
+					<div class = "title">SOLUTIONS</div>
+						<p><a href="#">Muscle-Prosthetic Interfaces</a></p>
+						<p><a href="#">Brain-Prosthetic Interfaces</a></p>
+						<p><a href="#">Neuromarketing</a></p>
+						<p><a href="#">Software Development</a></p>
+						<p><a href="#">Web Development</a></p>
+				</td><!--END SOCIAL MEDIA-->
+				<!--=======SOCIAL MEDIA=====-->
+				<td>
+					<p>
+						<a href="#" alt="Facebook" title="Facebook"><img src="images/facebook.png"/></a>
+						<a href="#" alt="Youtube" title="Youtube"><img src="images/youtube.png"/></a>
+					</p>
+					<p>
+						<a href="#" alt="LinkedIn" title="LinkedIn"><img src="images/li.png"/></a>
+						<a href="#" alt="Twitter" title="Twitter"> <img src="images/twitter.png"/></a>
+					</p>
+				</td><!--END SOCIAL MEDIA-->
 			</tr>
-		<table>
-
+		<table><!--END FOOTER-->
 	</body>
 </html>

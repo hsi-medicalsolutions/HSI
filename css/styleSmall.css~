@@ -12,6 +12,7 @@ body{
 /* rules for Anchor*/
 a{
 	outline:none;
+	text-decoration: none;
 }
 /* rules for header 1*/
 h1{
@@ -19,24 +20,18 @@ h1{
 	border-bottom: 2px solid #00A8CB;
 	margin-bottom: 50px;
 }
-/********RULES FOR TABLES WITH CONTENT********/
-/* rules for table with menu*/
+/********RULES FOR TABLE WITH CONTENT MENU********/
 #tabmenu{
 	text-align:center;
+	width: 880px;
 	border-bottom: 2px solid #00A8CB;
 	margin-bottom: 30px;
 
 }
-/* rules for table with section display*/
-#tabsection{
-	text-align:center;
-	background: #000;	
-	color: #00A8CB;/*(00,169,203) o 002F64 -(00,47,10)*/
-	font-size: 60px;
-}			
 /********RULES FOR LOGO********/
 /* rules for logo*/
 .logo {
+	width: 120px;
 	text-align: center;
 	text-decoration: none;
 }
@@ -50,7 +45,7 @@ ul#navmenu, ul.sub1{
 	list-style-type:none;
 	text-align:center;
 	font-family: Helvetica, arial, sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	/*outline: 1px solid red;*/
 }
 /* rules for MAIN LIST item*/
@@ -112,15 +107,28 @@ ul#navmenu .sub1 li:hover a:hover{
 ul#navmenu li:hover .sub1{
 	display: block;
 }
+/*************RULES FOR FLAGS********************/
+#flags{
+	margin: -40px 0px auto;	
+	/*background-repeat:no-repeat;
+	position:absolute;*/
+	float: left;
+	top: 0;
+	background-position:0 top;
+}
 
-
-
-
-
-
-
-
+#flags a span{
+	display:none;
+} 
 /********RULES FOR IMAGE IN SECTION DISPLAY********/
+/* rules for table with section display*/
+#tabsection{
+	text-align:center;
+	background: #000;	
+	color: #00A8CB;/*(00,169,203) o 002F64 -(00,47,10)*/
+	font-size: 60px;
+}		
+/* rules for image in section display*/	
 div.img
 {
 	margin:0px;
@@ -129,7 +137,7 @@ div.img
 	text-align:left;
 	background: #000;
 }
-/********RULES FOR TEXT********/
+/********RULES FOR TEXT WITHIN SECTION********/
 /* rules for header*/
 .header {
 	padding: 0px;
@@ -148,38 +156,28 @@ div.img
 	font-family: Helvetica, arial, sans-serif;
 	font-size: 14px;
 }
-#flags{
-	margin:0 auto;	
-	background-repeat:no-repeat;
-	position:absolute;
-	top: 0;
-	background-position:0 top;
-}
-
-#flags a span{
-	display:none;
-} 
 /********RULES FOR IMAGE SLIDER********/
+/*rules for all the content in text and image slider*/
 .wrapper{
-	width: 1000px;
+	width: 850px;
 	margin: 0 auto;
 	/*outline: 1px solid red;*/
 }
-
+/*Rules for image slider container*/
 #slider{
-	width: 500px;
-	height: 400px;
+	width: 400px;
+	height: 320px;
 	overflow: hidden;
 	margin: 30px auto;
 }
-
+/*Rules for image slider images*/
 #slider > img{
-	width: 500px;
-	height: 400px;
+	width: 400px;
+	height: 320px;
 	float: left;
 	display: none;
 }
-
+/*Rules for previous and next button (ANCHOR)*/
 .wrapper a{
 	padding: 5px 0px;
 	background-color: #FFF;
@@ -191,29 +189,28 @@ div.img
 	position: relative;
 	font-size: 50px;
 }
-
+/*Rules for left button*/
+.left a{
+	float: left;
+}
+/*Rules for right button*/
+.right a{
+	float: right;
+}
+/*Rules for left button while hover*/
 .left a:hover{
 	font-size: 60px;
 	color: #00A8CB;
 }
-
+/*Rules for right button while hover*/
 .right a:hover{
 	font-size: 60px;
 	color: #00A8CB;
 }
-
-.left a{
-	float: left;
-}
-
-.right a{
-	float: right;
-}
-
-
-/**************************************/
+/***********RULES FOR TEXT SLIDER****************/
+/* rules for all content in slider*/
 .main-content{
-	width: 400px;
+	width: 330px;
 	height: 340px;
 	background-color: #FFF;
 	font-size: 12px;
@@ -221,40 +218,41 @@ div.img
 	text-align: left;
 	/*outline: 1px solid red;*/
 }
+/* rules for heading and paragraph text*/
 .content-switcher{
 	display: none;
 	/*outline: 1px solid red;*/
 }
-
+/* rules for heading text */
 .content-switcher .head{
 	margin: none;
-	font-size: 50px;
+	font-size: 40px;
 	border-bottom: none;
-	width: 400px;
+	width: 330px;
 	margin: 0px;
 	color: #00A8CB;
 }
-
+/* rules for paragraph text */
 .content-switcher p{
-	font-size: 22px;
+	font-size: 20px;
 	color: #707276;
 	margin: 10px auto; 
 }
-
+/* rules for first text*/
 .content-switcher:first-child{
 	display:block;
 }
-
+/* rules for READ MORE BUTTON container*/
 .content-switcher-read{
 	padding-top: 10px;
-	width: 400px;
+	width: 330px;
 	height: 100px;
 	margin: auto;
 	color: #00A8CB;
 	display: none;
 	/*outline: 1px solid red;*/
 }
-
+/* rules for READ MORE BUTTON */
 .content-switcher-read a{
 	text-align: center;
 	height: 20px;
@@ -268,13 +266,33 @@ div.img
 	outline: none;
 	font-weight: bold;
 }
-
-
-/*******************************/
-#footer{
+/***********RULES FOR FOOTER**************/
+/* rules for all content in footer */
+.footer{
 	margin: 10px auto;
 	height: 200px;
-	width: 1280px;
+	width: 880px;
 	background: rgb(84,89,98);
 	color: #FFF;
+	text-align: justify;
+	font-size: 13px;
+}
+/* rules for heading in footer */
+.footer .title{
+	margin-left: 00px;
+	padding-bottom: 10px;
+	font-size:14px;
+}
+/* rules for subheading in footer */
+.footer p{
+	margin-left: 100px;
+	padding-bottom: 5px;
+}
+/* rules for subheading elements in footer */
+.footer a{
+	color: rgb(198,198,198);
+}
+/* rules for subheading in footer while hover */
+.footer a:hover{
+	color: #fff;
 }

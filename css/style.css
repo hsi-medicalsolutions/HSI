@@ -38,15 +38,11 @@ h1{
 /* rules for logo*/
 .logo {
 	text-align: center;
-	font-family: Helvetica, arial, sans-serif;
-	font-size: 30px;
-	font-weight: bold;
-}
-/* rules for logo ANCHOR*/
-.logo a{
-	color: #000000;
-	font-weight: bold;
 	text-decoration: none;
+}
+/* rules for logo IMAGE*/
+.logo img{
+	width: 100%;
 }
 /********RULES FOR NAVIGATION MENU********/
 /* rules for all UNORDERED lists*/
@@ -60,19 +56,17 @@ ul#navmenu, ul.sub1{
 /* rules for MAIN LIST item*/
 ul#navmenu li{
 	/*border: 1px solid red;*/
-	width: 200px;
+	width: 24%;
 	text-align: center;
 	position: relative; /*very important step*/
 	float: left;
-	margin-right: 4px;
+	margin-right: 1%;
 }
 /* rules for MAIN ANCHOR element*/
 ul#navmenu a{
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
-	width: 190px;
-	height: 25px;
 	line-height: 25px;
 	color: #002F64;	
 	text-align: center;
@@ -85,7 +79,7 @@ ul#navmenu li:hover >a{
 ul#navmenu ul.sub1{
 	display: none;
 	position: absolute;
-	top: 25px;
+	width: 100%;
 	left: auto;
 	right: auto;
 	background-color: rgba(00,10,47,0.9);
@@ -96,13 +90,13 @@ ul#navmenu ul.sub1{
 /* rules for SUB LIST item*/
 ul#navmenu .sub1 li{
 	color: #FFF;
-	width: 200px;
+	width: 100%;
 	/**border: 1px solid green;*/
 }
 /* rules for SUB ANCHOR element*/
 ul#navmenu .sub1 a{
 	color: #FFF;
-	width: 200px;
+	width: 100%;
 	margin-top: 0px;
 	-webkit-border-radius: 0px 15px 0px 15px;
 	-moz-border-radius: 0px 15px 0px 15px;
@@ -111,8 +105,8 @@ ul#navmenu .sub1 a{
 /* rules for SUB ANCHOR element -> SUB A and LI hover*/
 ul#navmenu .sub1 li:hover a:hover{
 	background-color: #FFF;
-	width: 201px;
-	border: 1px solid rgba(150,150,150,0.9);
+	width: 100%;
+	box-shadow: 0 0 0 1px rgba(150,150,150,0.9) inset;
 }
 /* rules for ALL SUB elements -> MAIN LI hover*/
 ul#navmenu li:hover .sub1{

@@ -95,6 +95,9 @@ ul#navmenu ul.sub1{
 ul#navmenu .sub1 li{
 	color: #FFF;
 	width: 100%;
+	-webkit-border-radius: 0px 15px 0px 15px;
+	-moz-border-radius: 0px 15px 0px 15px;
+	border-radius: 0px 15px 0px 15px;
 	/**border: 1px solid green;*/
 }
 /* rules for SUB ANCHOR element*/
@@ -182,7 +185,7 @@ div.img
 #slider > img{
 	position: relative;
 	z-index: 1;
-	width: 500px;
+	width: 495px;
 	height: 400px;
 	float: left;
 	display: none;
@@ -284,10 +287,11 @@ div.img
 	margin: 0 auto;
 	padding-left: 75px;
 }
-/* rules for textboxes*/ 
+/* rules for textboxes ANCHOR*/ 
 #textBoxes a{	
-	padding: 0px 200px;
+	padding: 0px 150px;
 }
+/* general rules for textboxes*/ 
 #textBoxes .textBox{
 	margin: 0px auto;
 	margin-top: -130px;
@@ -301,29 +305,34 @@ div.img
 	-webkit-box-shadow: 5px 5px 5px#696868;
 	box-shadow: 5px 5px 5px#696868;
 }
+/* rules for textbox with heading and paragraph*/ 
 #textBoxes .inBox1{
 	padding-top: 10px;
 	width: 200px;
 	height: 80px;
 	text-align:left;
 }
+/* rules for heading*/ 
 #textBoxes .inBox1 h1{
 	color: #fff;
 	font-size: 30px;
 	margin-bottom: 3px;
 	text-shadow: 0px 2px 3px #555;
 }
+/* rules for paragraph*/ 
 #textBoxes .inBox1 p{
 	color: #333;
 	font-size: 15px;
 	text-shadow: none;
 }
+/* rules for textbox with image*/ 
 #textBoxes .inBox2{
 	width: 75px;
 	height: 110px;
 	text-align:left;
 	color: #FFF;
 }
+/* rules for textbox with description*/ 
 #textBoxes .inBox3{
 	width: 135px;
 	height: 110px;
@@ -331,7 +340,6 @@ div.img
 	text-align:left;
 	color: #333;
 }
-
 /***********RULES FOR FOOTER**************/
 /* rules for all content in footer */
 .footer{

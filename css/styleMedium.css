@@ -44,7 +44,7 @@ a{
 }
 /* rules for logo IMAGE*/
 .logo img{
-	width: 120px;
+	width: 119px;
 	height: 70px;
 }
 /********RULES FOR NAVIGATION MENU********/
@@ -70,7 +70,6 @@ ul#navmenu a{
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
-	line-height: 25px;
 	color: #002F64;	
 	text-align: center;
 }
@@ -95,6 +94,9 @@ ul#navmenu ul.sub1{
 ul#navmenu .sub1 li{
 	color: #FFF;
 	width: 100%;
+	-webkit-border-radius: 0px 15px 0px 15px;
+	-moz-border-radius: 0px 15px 0px 15px;
+	border-radius: 0px 15px 0px 15px;
 	/**border: 1px solid green;*/
 }
 /* rules for SUB ANCHOR element*/
@@ -182,7 +184,7 @@ div.img
 #slider > img{
 	position: relative;
 	z-index: 1;
-	width: 400px;
+	width: 395px;
 	height: 320px;
 	float: left;
 	display: none;
@@ -275,11 +277,64 @@ div.img
 	outline: none;
 	font-weight: bold;
 }
-
-
-
-
-
+/***********RULES FOR TEXT BOXES**************/
+/* rules for text boxes container */
+#textBoxes{
+	width: 850px;
+	height: 200px;
+	margin: 0 auto;
+	padding-left: 50px;
+	margin-bottom: 30px;
+}
+/* general rules for textboxes*/ 
+#textBoxes .textBox{
+	margin: 0px auto;
+	margin-top: -130px;
+	width: 230px;
+	height: 230px;
+	position: absolute;
+	z-index: 2;
+	border-radius: 15px;
+	background-color: #00A8CB;
+	-moz-box-shadow: 5px 5px 5px #696868;
+	-webkit-box-shadow: 5px 5px 5px #696868;
+	box-shadow: 5px 5px 5px #696868;
+}
+/* rules for textbox with heading and paragraph*/ 
+#textBoxes .inBox1{
+	padding-top: 10px;
+	width: 180px;
+	height: 80px;
+	text-align:left;
+}
+/* rules for heading*/ 
+#textBoxes .inBox1 h1{
+	color: #fff;
+	font-size: 26px;
+	margin-bottom: 3px;
+	text-shadow: 0px 2px 3px #555;
+}
+/* rules for paragraph*/ 
+#textBoxes .inBox1 p{
+	color: #333;
+	font-size: 13px;
+	text-shadow: none;
+}
+/* rules for textbox with image*/ 
+#textBoxes .inBox2{
+	width: 65px;
+	height: 110px;
+	text-align:left;
+	color: #FFF;
+}
+/* rules for textbox with description*/ 
+#textBoxes .inBox3{
+	width: 125px;
+	height: 110px;
+	font-size: 13px;
+	text-align:left;
+	color: #333;
+}
 /***********RULES FOR FOOTER**************/
 /* rules for all content in footer */
 .footer{
@@ -310,7 +365,7 @@ div.img
 /* rules for subheading in footer while hover */
 .footer a:hover{
 	color: #fff;
-}a
+}
 /****************RULES FOR SUBFOOTER************/
 .subfooter{
 	margin: 0px auto;

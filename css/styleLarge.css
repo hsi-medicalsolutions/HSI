@@ -276,16 +276,67 @@ div.img
 	outline: none;
 	font-weight: bold;
 }
-
-
-
-
-
+/***********RULES FOR TEXT BOXES**************/
+/* rules for text boxes container */
+#textBoxes{
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+	padding-left: 75px;
+}
+/* rules for textboxes*/ 
+#textBoxes a{	
+	padding: 0px 200px;
+}
+#textBoxes .textBox{
+	margin: 0px auto;
+	margin-top: -130px;
+	width: 250px;
+	height: 230px;
+	position: absolute;
+	z-index: 2;
+	border-radius: 15px;
+	background-color: #00A8CB;
+	-moz-box-shadow: 5px 5px 5px#696868;
+	-webkit-box-shadow: 5px 5px 5px#696868;
+	box-shadow: 5px 5px 5px#696868;
+}
+#textBoxes .inBox1{
+	padding-top: 10px;
+	width: 200px;
+	height: 80px;
+	text-align:left;
+}
+#textBoxes .inBox1 h1{
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 3px;
+	text-shadow: 0px 2px 3px #555;
+}
+#textBoxes .inBox1 p{
+	color: #333;
+	font-size: 15px;
+	text-shadow: none;
+}
+#textBoxes .inBox2{
+	width: 75px;
+	height: 110px;
+	text-align:left;
+	color: #FFF;
+}
+#textBoxes .inBox3{
+	width: 135px;
+	height: 110px;
+	font-size: 14px;
+	text-align:left;
+	color: #333;
+}
 
 /***********RULES FOR FOOTER**************/
 /* rules for all content in footer */
 .footer{
 	margin: 0px auto;
+	margin-top: 30px;
 	height: 200px;
 	width: 100%;
 	background: rgb(84,89,98);

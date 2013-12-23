@@ -310,7 +310,7 @@ div.img
 /* rules for subheading in footer while hover */
 .footer a:hover{
 	color: #fff;
-}
+}a
 /****************RULES FOR SUBFOOTER************/
 .subfooter{
 	margin: 0px auto;

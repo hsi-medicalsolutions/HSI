@@ -70,6 +70,7 @@ ul#navmenu a{
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
+	line-height: 25px;
 	color: #002F64;	
 	text-align: center;
 }

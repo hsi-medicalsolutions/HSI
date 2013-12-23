@@ -1,3 +1,7 @@
+/***********************************
+Author: Eduardo López Arce Vivas
+email: eduardo.lopezarce@gmail.com
+***********************************/
 sliderInt = 1;
 sliderNext = 2;
 window.x = 1;

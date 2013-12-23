@@ -14,28 +14,33 @@ a{
 	outline:none;
 	text-decoration: none;
 }
-/* rules for header 1*/
-h1{
-	text-align:center;
-	border-bottom: 2px solid #00A8CB;
-	margin-bottom: 50px;
-}
 /********RULES FOR TABLE WITH CONTENT MENU********/
 #tabmenu{
 	text-align:center;
-	border-bottom: 2px solid #00A8CB;
-	margin-bottom: 30px;
-
-}		
+	margin-bottom: 20px;
+	border-bottom: 5px solid #00a8cb;
+	border-top: 5px solid #00a8cb;
+	-moz-box-shadow:    inset  0  8px 8px -8px #696868, 
+                        inset  0 -8px 8px -8px #696868;
+    -webkit-box-shadow: inset  0  8px 8px -8px #696868, 
+                        inset  0 -8px 8px -8px #696868;
+     box-shadow:        inset  0  8px 8px -8px #696868, 
+                        inset  0 -8px 8px -8px #696868;
+	position: relative;
+	z-index: 2;
+}	
 /********RULES FOR LOGO********/
 /* rules for logo*/
 .logo {
+	width: 120px;
+	height: 70px;
 	text-align: center;
 	text-decoration: none;
 }
 /* rules for logo IMAGE*/
 .logo img{
-	width: 100%;
+	width: 120px;
+	height: 70px;
 }
 /********RULES FOR NAVIGATION MENU********/
 /* rules for all UNORDERED lists*/
@@ -111,8 +116,9 @@ ul#navmenu li:hover .sub1{
 	margin:0 auto;	
 	background-repeat:no-repeat;
 	position:absolute;
-	top: 0;
-	background-position:0 top;
+	top: 5px;
+	right: 5px;
+	background-position:0 top right;
 }
 #flags a span{
 	display:none;
@@ -165,10 +171,12 @@ div.img
 	width: 400px;
 	height: 320px;
 	overflow: hidden;
-	margin: 30px auto;
+	margin: 0px auto;
 }
 /*Rules for image slider images*/
 #slider > img{
+	position: relative;
+	z-index: 1;
 	width: 400px;
 	height: 320px;
 	float: left;

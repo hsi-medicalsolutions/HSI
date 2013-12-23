@@ -14,19 +14,21 @@ a{
 	outline:none;
 	text-decoration: none;
 }
-/* rules for header 1*/
-h1{
-	text-align:center;
-	border-bottom: 2px solid #00A8CB;
-	margin-bottom: 50px;
-}
 /********RULES FOR TABLE WITH CONTENT MENU********/
 #tabmenu{
 	text-align:center;
 	width: 880px;
-	border-bottom: 2px solid #00A8CB;
-	margin-bottom: 30px;
-
+	margin-bottom: 20px;
+	border-bottom: 5px solid #00a8cb;
+	border-top: 5px solid #00a8cb;
+	-moz-box-shadow:    inset  0  8px 8px -8px #696868, 
+                        inset  0 -8px 8px -8px #696868;
+    -webkit-box-shadow: inset  0  8px 8px -8px #696868, 
+                        inset  0 -8px 8px -8px #696868;
+     box-shadow:        inset  0  8px 8px -8px #696868, 
+                        inset  0 -8px 8px -8px #696868;
+	position: relative;
+	z-index: 2;
 }
 /********RULES FOR LOGO********/
 /* rules for logo*/
@@ -109,12 +111,7 @@ ul#navmenu li:hover .sub1{
 }
 /*************RULES FOR FLAGS********************/
 #flags{
-	margin: -40px 0px auto;	
-	/*background-repeat:no-repeat;
-	position:absolute;*/
-	float: left;
-	top: 0;
-	background-position:0 top;
+	margin:-42px 3px;
 }
 
 #flags a span{
@@ -168,10 +165,12 @@ div.img
 	width: 400px;
 	height: 320px;
 	overflow: hidden;
-	margin: 30px auto;
+	margin: 0px auto;
 }
 /*Rules for image slider images*/
 #slider > img{
+	position: relative;
+	z-index: 1;
 	width: 400px;
 	height: 320px;
 	float: left;

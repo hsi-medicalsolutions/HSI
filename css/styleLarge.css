@@ -365,7 +365,6 @@ ul#navmenu li:hover .sub1{
 }
 
 .ch-info h1 {
-	color: #00A8CB;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: 20px;
@@ -374,7 +373,8 @@ ul#navmenu li:hover .sub1{
 	padding: 78px 0 0 0;
 	height: 40px;
 	font-family: 'Open Sans', Arial, sans-serif;
-	text-shadow: #686868 0.1em 0.1em 0.2em
+	color: white;
+	text-shadow: 1px 1px #000, -1px -1px #000;
 }
 
 .ch-info .ch-info-back {

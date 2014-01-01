@@ -364,6 +364,19 @@ ul#navmenu li:hover .sub1{
 	backface-visibility: hidden;
 }
 
+.ch-info h1 {
+	color: #00A8CB;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 78px 0 0 0;
+	height: 40px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: #686868 0.1em 0.1em 0.2em
+}
+
 .ch-info .ch-info-back {
 	-webkit-transform: rotate3d(0,1,0,180deg);
 	-moz-transform: rotate3d(0,1,0,180deg);
